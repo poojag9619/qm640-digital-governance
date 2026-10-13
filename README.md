@@ -19,7 +19,7 @@ sample is at least 30 units × 8 years = 240 state-years.
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/qm640-digital-governance.git
+git clone https://github.com/poojag9619/qm640-digital-governance.git
 cd qm640-digital-governance
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt                          # pinned versions; Python 3.10+
