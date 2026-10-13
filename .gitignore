@@ -1,0 +1,6 @@
+data/raw/phonepe_pulse/
+data/raw/social/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pyc

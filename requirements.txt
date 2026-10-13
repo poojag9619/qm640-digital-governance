@@ -1,0 +1,10 @@
+# Tested with Python 3.13 (works with 3.10+). Install: pip install -r requirements.txt
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+openpyxl>=3.1        # reading .xlsx templates
+requests>=2.31       # data.gov.in API
+vaderSentiment==3.3.2
+jupyter

@@ -1,0 +1,6 @@
+# Only needed for the optional extensions described in the synopsis
+praw>=7.7            # Reddit Data API (RQ3 collection)
+tweepy>=4.14         # X API (RQ3, paid access only)
+scikit-learn>=1.4    # k-means segmentation, ML benchmark
+xgboost>=2.0
+shap>=0.45
