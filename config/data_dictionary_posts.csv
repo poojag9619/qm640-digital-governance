@@ -1,0 +1,15 @@
+variable,description,unit,role
+platform,Source platform (reddit or x),text,post
+post_id,Platform post identifier (kept to honour deletions; no author stored),text,ID
+created_utc,"Post timestamp, UTC",datetime,Defines year (2023-2025 window)
+source,Subreddit (or 'x'),text,Geolocation input
+keyword,Search keyword that retrieved the post,text,Descriptive
+text,Post title and body; deleted by `sentiment purge` at project end,text,Model input (never shared)
+score,Platform score/likes at collection,count,Descriptive
+n_comments,Number of replies,count,Descriptive
+url,Permalink,text,Audit
+state_code,"State from state subreddit, else a single unambiguous state name in the text; blank if unclear",code,Aggregation key
+english,1 if >= 90% of letters are ASCII (English/romanised); only these are scored,0/1,Filter
+compound,VADER compound score,-1 to 1,Model output
+model_label,positive if compound >= 0.05; negative if <= -0.05; else neutral,category,Sentiment label
+coder1_label / coder2_label,Human labels on the 505-post validation sample (60 double-coded),category,Gold standard

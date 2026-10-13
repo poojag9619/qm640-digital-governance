@@ -1,0 +1,23 @@
+service_area,state_codes,note
+Andhra Pradesh,AP|TS,Verify against the footnotes of the TRAI report you use
+Assam,AS,
+Bihar,BR|JH,
+Delhi,DL,
+Gujarat,GJ|DH,
+Haryana,HR,
+Himachal Pradesh,HP,
+Jammu & Kashmir,JK|LA,
+Karnataka,KA,
+Kerala,KL|LD,
+Kolkata,WB,Metro area: combine with West Bengal before assigning
+Madhya Pradesh,MP|CG,
+Maharashtra,MH|GA,
+Mumbai,MH,Metro area: combine with Maharashtra before assigning
+North East,AR|MN|ML|MZ|NL|TR,
+Odisha,OD,
+Punjab,PB|CH,
+Rajasthan,RJ,
+Tamil Nadu,TN|PY,Includes Chennai
+UP (East),UP,Combine East and West before assigning
+UP (West),UP|UK,
+West Bengal,WB|SK|AN,
