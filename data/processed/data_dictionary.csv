@@ -1,0 +1,49 @@
+variable,description,unit,source,role,dtype,non_missing_%
+state_code,Project 2-letter state/UT code (config/states.csv),code,config,ID,str,100.0
+state_name,State/UT name,text,config,ID,str,100.0
+type,State or Union Territory,text,config,ID,str,100.0
+region,Geographic region,text,config,Descriptive,str,100.0
+year,Calendar year; financial year t-(t+1) recorded as t,year,-,ID,int64,100.0
+upi_txn_p2p,PhonePe person-to-person transactions,count,PhonePe Pulse,Descriptive,float64,100.0
+upi_txn_retail,PhonePe merchant/retail transactions,count,PhonePe Pulse,Descriptive,float64,100.0
+upi_txn_utility,PhonePe recharge and bill-payment transactions,count,PhonePe Pulse,Descriptive,float64,100.0
+upi_txn,PhonePe UPI transactions in the year (sum of 4 quarters),count,PhonePe Pulse,Input,float64,100.0
+upi_users,"PhonePe registered users at 31 Dec (cumulative, Q4 value)",count,PhonePe Pulse,Descriptive,float64,100.0
+upi_merchants,"PhonePe registered merchants at 31 Dec (cumulative, Q4 value)",count,PhonePe Pulse,Descriptive,float64,99.0
+population,Projected population (mid-year),persons,population,Denominator for per-capita measures,float64,0.0
+etaal_txn,Government e-transactions in the year,count,etaal,Input to ln_etaal_txn_pc (RQ1),float64,0.0
+dbt_amount_cr,Direct Benefit Transfer amount in the financial year,Rs crore,dbt,Input to ln_dbt_pc (RQ1),float64,0.0
+nrega_timely_pct,Wage payments generated within 15 days,% of payments,nrega,RQ1-RQ2 primary outcome,float64,0.0
+nrega_women_pd_pct,Women's share of person-days generated,% of person-days,nrega,RQ4 primary outcome,float64,0.0
+pds_epos_auth_pct,PDS transactions Aadhaar-authenticated on ePoS,% of transactions,annavitran,RQ1 secondary outcome (SDEI),float64,0.0
+nesda_score,NeSDA state portal assessment score,0-1 index,nesda,Descriptive only (3 waves),float64,0.0
+internet_per100,Internet subscribers per 100 population,per 100,trai,RQ1 predictor; adoption_index part,float64,0.0
+literacy_pct,"Literacy rate, Census 2011 (constant over years)",%,rbi,RQ2 moderator,float64,0.0
+nsdp_pc_real,Per-capita NSDP at constant prices,Rs,rbi,Input to ln_nsdp_pc,float64,0.0
+pmjdy_women_pct,Women's share of Jan Dhan accounts,%,pmjdy,RQ4 secondary outcome,float64,0.0
+pmjdy_rural_pct,Rural/semi-urban share of Jan Dhan accounts,%,pmjdy,RQ4 secondary outcome,float64,0.0
+flag_no_mgnregs,"1 = MGNREGS does not operate (NS code); excluded from RQ1, RQ2, RQ4",0/1,derived,Flag,int64,100.0
+flag_no_pds_epos,1 = no ePoS grain distribution (NS code); SDEI missing,0/1,derived,Flag,int64,100.0
+flag_jk_incl_ladakh,1 = J&K value includes Ladakh (before 2019),0/1,derived,Flag,int64,100.0
+flag_ladakh_not_separate,1 = Ladakh not yet a separate UT (before 2019),0/1,derived,Flag,int64,100.0
+flag_dh_premerger,1 = DNH and Daman & Diu combined before the 2020 merger,0/1,derived,Flag,int64,100.0
+upi_txn_pc,PhonePe UPI transactions per person = upi_txn / population,count/person,derived,Input to adoption,float64,0.0
+upi_users_pct,PhonePe registered users as % of population (can exceed 100: multiple accounts),%,derived,Descriptive,float64,0.0
+etaal_txn_pc,Government e-transactions per person = etaal_txn / population,count/person,derived,Input to adoption,float64,0.0
+dbt_pc,DBT transferred per person = dbt_amount_cr x 10^7 / population,Rs/person,derived,Input to adoption,float64,0.0
+ln_upi_txn_pc,ln(1 + upi_txn_pc),log,derived,RQ1 predictor,float64,0.0
+ln_etaal_txn_pc,ln(1 + etaal_txn_pc),log,derived,RQ1 predictor,float64,0.0
+ln_dbt_pc,ln(1 + dbt_pc),log,derived,RQ1 predictor,float64,0.0
+ln_nsdp_pc,ln(nsdp_pc_real),log Rs,derived,Control; RQ2 moderator,float64,0.0
+adoption_index,"Mean z-score of ln_upi_txn_pc, ln_etaal_txn_pc, ln_dbt_pc, internet_per100 (>= 3 of 4 parts)",z-score,derived,RQ2-RQ4 predictor,float64,0.0
+sdei,Service Delivery Efficiency Index: mean z of nrega_timely_pct and pds_epos_auth_pct (both required),z-score,derived,RQ1 secondary outcome,float64,0.0
+upi_txn_growth,Year-on-year growth in upi_txn,%,derived,Descriptive,float64,87.5
+n_posts,Classified English-language posts geolocated to the state in the year,count,derived,RQ3 (weight / filter),float64,0.0
+share_positive,Share of posts labelled positive,proportion 0-1,derived,RQ3 descriptive,float64,0.0
+share_negative,Share of posts labelled negative,proportion 0-1,derived,RQ3 descriptive,float64,0.0
+net_sentiment,share_positive - share_negative,-1 to 1,derived,RQ3 outcome,float64,0.0
+sentiment_sufficient,1 if n_posts >= 30 (state-year enters RQ3),0/1,derived,RQ3 filter,int64,100.0
+sample_rq1,1 if all RQ1 model variables are present and MGNREGS operates,0/1,derived,Sample flag,int64,100.0
+sample_rq2,1 if all RQ2 model variables are present,0/1,derived,Sample flag,int64,100.0
+sample_rq3,1 if sentiment_sufficient and adoption_index present,0/1,derived,Sample flag,int64,100.0
+sample_rq4,1 if all RQ4 model variables are present,0/1,derived,Sample flag,int64,100.0
