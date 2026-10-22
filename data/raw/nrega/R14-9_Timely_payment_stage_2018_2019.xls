@@ -1,0 +1,529 @@
+
+                    <table align="center" width="90%" border="1" bordercolor="black" style="border-collapse: collapse"
+                        cellspacing="0">
+                        <tr bgcolor="#82b4ff">
+                            <td align="center">
+                                <b>S No.</b>
+                            </td>
+                            <td align="center">
+                                <b>States</b>
+                            </td>
+                            <td align="center">
+                                <b>Stage 1 </b>
+                            </td>
+                            
+                            
+                        </tr>
+                        <tr bgcolor="#82b4ff">
+                            <td align="center">1</td>
+                            <td align="center">
+                                <b>2<a id="Repeater1_ctl35_LinkButton1" href="javascript:__doPostBack(&#39;Repeater1$ctl35$LinkButton1&#39;,&#39;&#39;)"><i class="up"></i></a>
+                                </b>
+                            </td>
+                            <td align="center">
+                                <b>3
+                                    <a id="Repeater1_ctl35_LinkButton2" href="javascript:__doPostBack(&#39;Repeater1$ctl35$LinkButton2&#39;,&#39;&#39;)"><i class="default"></i></a>
+                                </b>
+                            </td>
+                            
+                            
+
+                        </tr>
+                
+                    <tr>
+                        <td align="center">
+                            1
+                        </td>
+                        <td align="left">
+                            ANDAMAN AND NICOBAR
+                        </td>
+                        <td align="right">
+                            13.17
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            2
+                        </td>
+                        <td align="left">
+                            ANDHRA PRADESH
+                        </td>
+                        <td align="right">
+                            85.84
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            3
+                        </td>
+                        <td align="left">
+                            ARUNACHAL PRADESH
+                        </td>
+                        <td align="right">
+                            4.74
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            4
+                        </td>
+                        <td align="left">
+                            ASSAM
+                        </td>
+                        <td align="right">
+                            67.06
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            5
+                        </td>
+                        <td align="left">
+                            BIHAR
+                        </td>
+                        <td align="right">
+                            43.97
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            6
+                        </td>
+                        <td align="left">
+                            CHHATTISGARH
+                        </td>
+                        <td align="right">
+                            70.27
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            7
+                        </td>
+                        <td align="left">
+                            DN HAVELI AND DD
+                        </td>
+                        <td align="right">
+                            0
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            8
+                        </td>
+                        <td align="left">
+                            GOA
+                        </td>
+                        <td align="right">
+                            23.04
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            9
+                        </td>
+                        <td align="left">
+                            GUJARAT
+                        </td>
+                        <td align="right">
+                            44.84
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            10
+                        </td>
+                        <td align="left">
+                            HARYANA
+                        </td>
+                        <td align="right">
+                            49.15
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            11
+                        </td>
+                        <td align="left">
+                            HIMACHAL PRADESH
+                        </td>
+                        <td align="right">
+                            56.27
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            12
+                        </td>
+                        <td align="left">
+                            JAMMU AND KASHMIR
+                        </td>
+                        <td align="right">
+                            0.44
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            13
+                        </td>
+                        <td align="left">
+                            JHARKHAND
+                        </td>
+                        <td align="right">
+                            81.76
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            14
+                        </td>
+                        <td align="left">
+                            KARNATAKA
+                        </td>
+                        <td align="right">
+                            51.94
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            15
+                        </td>
+                        <td align="left">
+                            LADAKH
+                        </td>
+                        <td align="right">
+                            0.96
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            16
+                        </td>
+                        <td align="left">
+                            LAKSHADWEEP
+                        </td>
+                        <td align="right">
+                            23.79
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            17
+                        </td>
+                        <td align="left">
+                            MADHYA PRADESH
+                        </td>
+                        <td align="right">
+                            70.34
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            18
+                        </td>
+                        <td align="left">
+                            MANIPUR
+                        </td>
+                        <td align="right">
+                            37.87
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            19
+                        </td>
+                        <td align="left">
+                            MEGHALAYA
+                        </td>
+                        <td align="right">
+                            68.74
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            20
+                        </td>
+                        <td align="left">
+                            MIZORAM
+                        </td>
+                        <td align="right">
+                            28.89
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            21
+                        </td>
+                        <td align="left">
+                            NAGALAND
+                        </td>
+                        <td align="right">
+                            1.01
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            22
+                        </td>
+                        <td align="left">
+                            ODISHA
+                        </td>
+                        <td align="right">
+                            69.71
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            23
+                        </td>
+                        <td align="left">
+                            PUDUCHERRY
+                        </td>
+                        <td align="right">
+                            46.91
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            24
+                        </td>
+                        <td align="left">
+                            PUNJAB
+                        </td>
+                        <td align="right">
+                            50.72
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            25
+                        </td>
+                        <td align="left">
+                            RAJASTHAN
+                        </td>
+                        <td align="right">
+                            39.69
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            26
+                        </td>
+                        <td align="left">
+                            SIKKIM
+                        </td>
+                        <td align="right">
+                            52.84
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            27
+                        </td>
+                        <td align="left">
+                            TAMIL NADU
+                        </td>
+                        <td align="right">
+                            69.51
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            28
+                        </td>
+                        <td align="left">
+                            TELANGANA
+                        </td>
+                        <td align="right">
+                            76.41
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            29
+                        </td>
+                        <td align="left">
+                            TRIPURA
+                        </td>
+                        <td align="right">
+                            63.95
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            30
+                        </td>
+                        <td align="left">
+                            UTTAR PRADESH
+                        </td>
+                        <td align="right">
+                            59.6
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            31
+                        </td>
+                        <td align="left">
+                            UTTARAKHAND
+                        </td>
+                        <td align="right">
+                            88.04
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            32
+                        </td>
+                        <td align="left">
+                            WEST BENGAL
+                        </td>
+                        <td align="right">
+                            61.89
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    <tr>
+                        <td align="center">
+                            
+                        </td>
+                        <td align="left">
+                            <font color='red'><b>Total</b></font>
+                        </td>
+                        <td align="right">
+                            65.54
+                        </td>
+                        
+                        
+                       
+                    </tr>
+                
+                    </table>
+                

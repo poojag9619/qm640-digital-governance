@@ -31,6 +31,17 @@ python run_all.py --offline --models   # also estimate RQ1-RQ4 -> reports/model_
 Each model runs only when its analysis sample reaches the minimum N. Until then, the report
 says what is missing.
 
+## Interim report (reproduce every number and figure)
+
+```bash
+python -m src.collect.extract_reports     # parse source PDFs/Excel/MGNREGA record into data/raw/<source>/<source>.csv
+python run_all.py --offline               # validate, merge, derive
+python -m src.models.interim_analysis     # cleaning counts, EDA figures, models -> reports/interim/results.json
+python src/report/interim_figures.py      # model-performance and coefficient figures
+python src/report/dataset_preview.py      # dataset preview figure
+python -m src.models.power_recheck       # sample-size re-check -> reports/interim/power_recheck.json
+```
+
 ## Outputs
 
 | File | Contents |
@@ -50,13 +61,14 @@ says what is missing.
 | Source | Variables | Collection | Status |
 |---|---|---|---|
 | PhonePe Pulse (GitHub) | `upi_txn` (+ P2P / retail / utility), `upi_users`, `upi_merchants` | Automated (`src/collect/phonepe_pulse.py`) | **Done**: 288/288 state-years |
-| National Commission on Population projections | `population` | Template | To do (first) |
-| MGNREGA MIS | `nrega_timely_pct` (primary outcome), `nrega_women_pd_pct` | Template / data.gov.in API | To do |
+| National Commission on Population projections | `population` | PDF parsed by `src/collect/extract_reports.py` | **Done** |
+| MGNREGA MIS report R14.9 (Timely Payment Status) | `nrega_timely_pct` (primary outcome, Stage 1 %) | 8 Excel downloads (CAPTCHA typed by hand) parsed by `extract_reports.py` | **Done**: FY 2018-19 to 2025-26, 32 units |
+| MGNREGA Scheme At a Glance | `nrega_women_pd_pct`, `nrega_persondays_lakh`, `nrega_efms_pct`, `nrega_timely_dash_pct` (validation) | Record file parsed by `extract_reports.py` | **Done** for FY 2021-22 to 2025-26 (32 units) |
 | Annavitran (PDS) | `pds_epos_auth_pct` | Template | To do |
-| e-Taal | `etaal_txn` | Template | To do |
-| DBT Bharat | `dbt_amount_cr` | Template / data.gov.in API | To do |
-| TRAI | `internet_per100` | Template + `config/trai_service_areas.csv` | To do |
-| RBI Handbook of Statistics on Indian States | `literacy_pct` (Census 2011), `nsdp_pc_real` | Template (Excel tables) | To do |
+| e-Taal | `etaal_txn` | Template | Pending: portal shows only a top-10 chart |
+| DBT Bharat | `dbt_amount_cr` | Template / data.gov.in API | Pending: portal shows current year only |
+| TRAI | `internet_per100` | 8 PDFs parsed by `extract_reports.py` + `config/trai_service_areas.csv` | **Done**: 2018–2025 |
+| RBI Handbook of Statistics on Indian States | `literacy_pct` (Census 2011), `nsdp_pc_real` | Excel parsed by `extract_reports.py` | **Done** (NSDP to FY 2023-24) |
 | PMJDY | `pmjdy_women_pct`, `pmjdy_rural_pct` | Template | To do |
 | NeSDA | `nesda_score` | Template (2019, 2021, 2023 reports) | Optional (descriptive) |
 | Reddit Data API | post text → sentiment | `src/collect/social_posts.py`, then `src/features/sentiment.py` | Gated: pilot pull by week 3 |
@@ -110,7 +122,7 @@ data/processed/  state_year_panel.csv, analysis_panel.csv, data_dictionary.csv
 src/collect/     phonepe_pulse.py, manual_sources.py, datagov_api.py, social_posts.py
 src/clean/       build_panel.py
 src/features/    build_features.py, sentiment.py
-src/models/      power_analysis.py, rq_models.py
+src/models/      power_analysis.py, power_recheck.py, interim_analysis.py, rq_models.py
 notebooks/       01_eda_phonepe.ipynb
 reports/         missing-data report, validation logs, model results, figures
 run_all.py       full pipeline

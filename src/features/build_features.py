@@ -10,8 +10,11 @@ Construction rules (also stated in the synopsis, section "Variable construction"
   * Skewed adoption measures enter as natural logs: ln(1 + x).
   * z-scores are computed over the pooled 2018-2025 panel (mean 0, SD 1), so an
     index value of +1 means one SD above the average state-year in the panel.
-  * adoption_index = mean z of ln UPI per capita, ln e-Taal per capita,
-    ln DBT per capita and internet per 100; needs >= 3 of the 4 parts.
+  * adoption_index = mean z of whichever of ln UPI per capita, ln e-Taal per capita,
+    ln DBT per capita and internet per 100 are available; needs >= 2 parts
+    (interim: UPI and internet only, because e-Taal and DBT have no state-year series).
+  * nrega_shortfall_log = ln(101 - timely %): payment-delay shortfall, reduces the ceiling at 100%.
+  * ln_nsdp_base = ln NSDP per capita in 2021 (FY 2021-22), a time-invariant baseline moderator.
   * sdei (secondary outcome) = mean z of timely-wage % and ePoS-authentication %;
     needs both parts. PC1 weights are printed as a sensitivity check.
   * Nothing is imputed here. Structural non-coverage (NS) is flagged and excluded;
@@ -35,11 +38,10 @@ SENTIMENT_COLS = ["n_posts", "share_positive", "share_negative", "net_sentiment"
 MIN_POSTS = 30
 
 SAMPLES = {  # analysis sample: complete cases of the variables each model needs
-    "sample_rq1": ["nrega_timely_pct", "ln_upi_txn_pc", "ln_etaal_txn_pc", "ln_dbt_pc",
-                   "internet_per100", "ln_nsdp_pc"],
-    "sample_rq2": ["nrega_timely_pct", "adoption_index", "ln_nsdp_pc", "literacy_pct"],
+    "sample_rq1": ["nrega_timely_pct", "ln_upi_txn_pc", "internet_per100"],
+    "sample_rq2": ["nrega_timely_pct", "adoption_index", "ln_nsdp_base", "literacy_pct"],
     "sample_rq3": ["net_sentiment", "adoption_index"],
-    "sample_rq4": ["nrega_women_pd_pct", "adoption_index", "ln_nsdp_pc"],
+    "sample_rq4": ["nrega_women_pd_pct", "adoption_index"],
 }
 
 DERIVED = [  # variable, description, unit, role
@@ -51,7 +53,9 @@ DERIVED = [  # variable, description, unit, role
     ("dbt_pc", "DBT transferred per person = dbt_amount_cr x 10^7 / population", "Rs/person", "Input to adoption"),
     ("ln_dbt_pc", "ln(1 + dbt_pc)", "log", "RQ1 predictor"),
     ("ln_nsdp_pc", "ln(nsdp_pc_real)", "log Rs", "Control; RQ2 moderator"),
-    ("adoption_index", "Mean z-score of ln_upi_txn_pc, ln_etaal_txn_pc, ln_dbt_pc, internet_per100 (>= 3 of 4 parts)", "z-score", "RQ2-RQ4 predictor"),
+    ("adoption_index", "Mean z-score of available parts: ln_upi_txn_pc, ln_etaal_txn_pc, ln_dbt_pc, internet_per100 (>= 2 parts)", "z-score", "RQ2-RQ4 predictor"),
+    ("nrega_shortfall_log", "ln(101 - nrega_timely_pct): log payment-timeliness shortfall (higher = worse)", "log points", "RQ1 robustness outcome"),
+    ("ln_nsdp_base", "ln NSDP per capita in 2021 (FY 2021-22); constant within state", "log Rs", "RQ2 moderator"),
     ("sdei", "Service Delivery Efficiency Index: mean z of nrega_timely_pct and pds_epos_auth_pct (both required)", "z-score", "RQ1 secondary outcome"),
     ("upi_txn_growth", "Year-on-year growth in upi_txn", "%", "Descriptive"),
     ("n_posts", "Classified English-language posts geolocated to the state in the year", "count", "RQ3 (weight / filter)"),
@@ -59,7 +63,7 @@ DERIVED = [  # variable, description, unit, role
     ("share_negative", "Share of posts labelled negative", "proportion 0-1", "RQ3 descriptive"),
     ("net_sentiment", "share_positive - share_negative", "-1 to 1", "RQ3 outcome"),
     ("sentiment_sufficient", f"1 if n_posts >= {MIN_POSTS} (state-year enters RQ3)", "0/1", "RQ3 filter"),
-    ("sample_rq1", "1 if all RQ1 model variables are present and MGNREGS operates", "0/1", "Sample flag"),
+    ("sample_rq1", "1 if timely %, ln UPI per capita and internet per 100 are present and MGNREGS operates", "0/1", "Sample flag"),
     ("sample_rq2", "1 if all RQ2 model variables are present", "0/1", "Sample flag"),
     ("sample_rq3", "1 if sentiment_sufficient and adoption_index present", "0/1", "Sample flag"),
     ("sample_rq4", "1 if all RQ4 model variables are present", "0/1", "Sample flag"),
@@ -99,7 +103,10 @@ def build(panel: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
     for c in ("upi_txn_pc", "etaal_txn_pc", "dbt_pc"):
         df["ln_" + c] = np.log1p(df[c])
     df["ln_nsdp_pc"] = np.log(df["nsdp_pc_real"].astype(float))
-    df["adoption_index"] = _mean_z(df, ADOPTION_PARTS, 3)
+    df["adoption_index"] = _mean_z(df, ADOPTION_PARTS, 2)
+    df["nrega_shortfall_log"] = np.log(101 - df["nrega_timely_pct"].astype(float))
+    base = df[df.year == 2021].set_index("state_code")["ln_nsdp_pc"]
+    df["ln_nsdp_base"] = df.state_code.map(base)
     df["sdei"] = _mean_z(df, SDEI_PARTS, 2)
     df["upi_txn_growth"] = df.groupby("state_code")["upi_txn"].pct_change(fill_method=None) * 100
 

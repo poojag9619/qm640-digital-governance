@@ -1,0 +1,289 @@
+state_name,year,nrega_timely_dash_pct,nrega_women_pd_pct,nrega_persondays_lakh,nrega_efms_pct,nrega_timely_pct,source_document,notes
+Andaman and Nicobar Islands,2018,NR,NR,NR,NR,13.17,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Andaman and Nicobar Islands,2019,NR,NR,NR,NR,13.26,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Andaman and Nicobar Islands,2020,NR,NR,NR,NR,11.62,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Andaman and Nicobar Islands,2021,46.35,54.14,1.13,98.14,31.41,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andaman and Nicobar Islands,2022,15.41,59.16,1.29,90.04,7.82,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andaman and Nicobar Islands,2023,52.4,63.71,1.24,91.52,38.3,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andaman and Nicobar Islands,2024,7.57,60.23,0.88,99.64,3.55,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andaman and Nicobar Islands,2025,33.43,60.86,0.63,99.86,27.36,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andhra Pradesh,2018,NR,NR,NR,NR,85.84,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Andhra Pradesh,2019,NR,NR,NR,NR,89.55,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Andhra Pradesh,2020,NR,NR,NR,NR,97.23,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Andhra Pradesh,2021,98.79,57.81,2414.66,6.06,97.03,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andhra Pradesh,2022,98.35,60.52,2395.27,100.0,93.25,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andhra Pradesh,2023,99.99,60.56,2554.83,100.0,99.92,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andhra Pradesh,2024,100.0,60.14,2422.82,100.0,99.99,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Andhra Pradesh,2025,99.97,60.75,1859.57,100.0,99.89,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Arunachal Pradesh,2018,NR,NR,NR,NR,4.74,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Arunachal Pradesh,2019,NR,NR,NR,NR,4.07,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Arunachal Pradesh,2020,NR,NR,NR,NR,29.65,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Arunachal Pradesh,2021,80.89,44.73,158.68,99.71,66.06,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Arunachal Pradesh,2022,72.63,45.9,151.06,99.79,58.85,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Arunachal Pradesh,2023,79.15,47.82,160.35,99.75,63.06,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Arunachal Pradesh,2024,86.59,48.95,204.34,99.94,72.47,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Arunachal Pradesh,2025,79.17,49.42,222.24,99.91,60.24,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Assam,2018,NR,NR,NR,NR,67.06,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Assam,2019,NR,NR,NR,NR,84.06,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Assam,2020,NR,NR,NR,NR,93.67,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Assam,2021,98.78,47.57,915.85,100.0,94.01,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Assam,2022,97.47,47.55,786.74,100.0,93.04,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Assam,2023,98.83,50.6,874.22,100.0,94.24,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Assam,2024,99.63,54.44,711.26,100.0,97.44,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Assam,2025,97.19,55.09,561.78,99.99,93.23,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Bihar,2018,NR,NR,NR,NR,43.97,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Bihar,2019,NR,NR,NR,NR,78.5,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Bihar,2020,NR,NR,NR,NR,82.47,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Bihar,2021,98.76,53.19,1802.75,100.0,95.45,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Bihar,2022,96.36,56.4,2364.25,99.99,89.61,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Bihar,2023,98.38,54.27,2205.0,99.82,93.79,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Bihar,2024,97.14,55.11,2497.79,99.99,92.67,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Bihar,2025,96.05,58.84,2231.76,100.0,90.99,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Chandigarh,2018,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chandigarh,2019,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chandigarh,2020,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chandigarh,2021,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chandigarh,2022,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chandigarh,2023,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chandigarh,2024,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chandigarh,2025,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Chhattisgarh,2018,NR,NR,NR,NR,70.27,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Chhattisgarh,2019,NR,NR,NR,NR,89.1,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Chhattisgarh,2020,NR,NR,NR,NR,91.13,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Chhattisgarh,2021,94.19,51.61,1573.83,99.98,92.38,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Chhattisgarh,2022,76.27,53.24,1268.98,99.83,66.28,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Chhattisgarh,2023,99.89,54.12,1208.35,99.86,99.4,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Chhattisgarh,2024,98.27,53.37,1252.06,99.86,97.62,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Chhattisgarh,2025,97.42,52.9,1053.79,99.98,94.57,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Dadra and Nagar Haveli and Daman and Diu,2018,NR,NR,NR,NR,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Dadra and Nagar Haveli and Daman and Diu,2019,NR,NR,NR,NR,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Dadra and Nagar Haveli and Daman and Diu,2020,NR,NR,NR,NR,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Dadra and Nagar Haveli and Daman and Diu,2021,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,no/suspended activity (person-days 0 or <1% of peak)
+Dadra and Nagar Haveli and Daman and Diu,2022,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,no/suspended activity (person-days 0 or <1% of peak)
+Dadra and Nagar Haveli and Daman and Diu,2023,91.35,48.88,0.41,100.0,57.04,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Dadra and Nagar Haveli and Daman and Diu,2024,81.67,49.67,2.99,100.0,55.86,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Dadra and Nagar Haveli and Daman and Diu,2025,66.29,52.14,2.71,100.0,55.37,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Delhi,2018,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Delhi,2019,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Delhi,2020,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Delhi,2021,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Delhi,2022,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Delhi,2023,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Delhi,2024,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Delhi,2025,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,MGNREGS not implemented (urban UT)
+Goa,2018,NR,NR,NR,NR,23.04,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Goa,2019,NR,NR,NR,NR,48.79,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Goa,2020,NR,NR,NR,NR,41.86,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Goa,2021,53.37,78.41,0.95,5.59,34.58,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Goa,2022,78.76,78.42,0.94,92.72,53.0,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Goa,2023,59.4,72.05,0.43,99.99,32.68,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Goa,2024,65.09,76.52,0.76,99.99,37.64,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Goa,2025,76.4,78.05,0.55,100.0,53.29,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Gujarat,2018,NR,NR,NR,NR,44.84,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Gujarat,2019,NR,NR,NR,NR,83.75,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Gujarat,2020,NR,NR,NR,NR,97.95,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Gujarat,2021,99.57,46.62,568.01,99.55,97.5,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Gujarat,2022,94.72,47.82,465.98,99.93,89.84,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Gujarat,2023,99.63,46.99,492.72,99.89,98.03,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Gujarat,2024,99.85,46.98,431.26,99.81,99.22,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Gujarat,2025,99.34,47.49,312.61,99.96,97.87,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Haryana,2018,NR,NR,NR,NR,49.15,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Haryana,2019,NR,NR,NR,NR,78.53,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Haryana,2020,NR,NR,NR,NR,95.99,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Haryana,2021,99.85,52.67,146.39,99.83,98.33,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Haryana,2022,86.79,59.61,96.46,99.97,74.63,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Haryana,2023,81.63,61.06,123.1,99.96,63.58,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Haryana,2024,93.49,62.69,117.91,99.96,81.85,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Haryana,2025,90.67,65.26,72.13,100.0,77.72,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Himachal Pradesh,2018,NR,NR,NR,NR,56.27,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Himachal Pradesh,2019,NR,NR,NR,NR,87.21,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Himachal Pradesh,2020,NR,NR,NR,NR,91.86,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Himachal Pradesh,2021,98.82,62.53,362.88,100.0,95.19,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Himachal Pradesh,2022,94.02,64.83,303.03,99.96,83.25,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Himachal Pradesh,2023,98.01,64.07,335.98,99.99,94.64,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Himachal Pradesh,2024,98.79,63.66,381.89,100.0,97.37,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Himachal Pradesh,2025,99.23,63.75,230.56,100.0,96.34,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jammu and Kashmir,2018,NR,NR,NR,NR,0.44,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Jammu and Kashmir,2019,NR,NR,NR,NR,2.39,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Jammu and Kashmir,2020,NR,NR,NR,NR,51.61,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Jammu and Kashmir,2021,93.34,33.34,406.18,99.78,85.01,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jammu and Kashmir,2022,82.06,30.68,308.65,99.91,70.05,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jammu and Kashmir,2023,87.68,32.16,374.7,100.0,77.56,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jammu and Kashmir,2024,91.29,33.42,409.32,100.0,82.25,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jammu and Kashmir,2025,91.46,36.17,444.37,100.0,81.01,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jharkhand,2018,NR,NR,NR,NR,81.76,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Jharkhand,2019,NR,NR,NR,NR,99.67,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Jharkhand,2020,NR,NR,NR,NR,99.88,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Jharkhand,2021,99.95,45.61,1132.16,99.94,99.91,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jharkhand,2022,99.96,47.58,914.85,99.87,99.82,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jharkhand,2023,99.99,47.83,1097.12,99.97,99.97,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jharkhand,2024,99.97,49.07,1009.35,99.98,99.91,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Jharkhand,2025,99.83,52.02,1143.58,99.99,99.77,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Karnataka,2018,NR,NR,NR,NR,51.94,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Karnataka,2019,NR,NR,NR,NR,82.67,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Karnataka,2020,NR,NR,NR,NR,88.61,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Karnataka,2021,99.18,50.13,1632.09,99.92,96.43,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Karnataka,2022,97.79,51.94,1257.7,99.85,95.13,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Karnataka,2023,99.08,52.83,1384.39,99.84,96.42,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Karnataka,2024,99.37,53.5,1311.26,99.76,96.77,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Karnataka,2025,98.09,55.0,796.58,100.0,93.18,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Kerala,2018,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Kerala,2019,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Kerala,2020,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Kerala,2021,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Kerala,2022,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Kerala,2023,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Kerala,2024,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Kerala,2025,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Ladakh,2018,NR,NR,NR,NR,0.96,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Ladakh,2019,NR,NR,NR,NR,3.28,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Ladakh,2020,NR,NR,NR,NR,18.9,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Ladakh,2021,47.19,62.23,19.27,99.95,26.74,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Ladakh,2022,71.31,61.83,19.56,100.0,52.28,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Ladakh,2023,71.24,63.66,20.24,99.96,48.67,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Ladakh,2024,82.9,63.64,22.19,99.94,63.5,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Ladakh,2025,86.52,65.62,21.71,100.0,66.22,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Lakshadweep,2018,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Lakshadweep,2019,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Lakshadweep,2020,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Lakshadweep,2021,NR,NR,0.01,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,"low volume (<10,000 person-days): rates set to NR"
+Lakshadweep,2022,NR,NR,0.05,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,"low volume (<10,000 person-days): rates set to NR"
+Lakshadweep,2023,NR,NR,0.04,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,"low volume (<10,000 person-days): rates set to NR"
+Lakshadweep,2024,NS,NS,NS,NS,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,no/suspended activity (person-days 0 or <1% of peak)
+Lakshadweep,2025,NS,NS,NS,NS,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,no/suspended activity (person-days 0 or <1% of peak)
+Madhya Pradesh,2018,NR,NR,NR,NR,70.34,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Madhya Pradesh,2019,NR,NR,NR,NR,84.18,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Madhya Pradesh,2020,NR,NR,NR,NR,93.57,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Madhya Pradesh,2021,98.69,41.05,2998.23,99.77,95.87,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Madhya Pradesh,2022,98.5,41.8,2258.35,99.84,96.26,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Madhya Pradesh,2023,99.78,43.33,1994.04,99.9,99.05,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Madhya Pradesh,2024,99.67,43.84,1896.07,99.98,99.09,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Madhya Pradesh,2025,97.88,42.94,1905.14,100.0,94.78,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Maharashtra,2018,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Maharashtra,2019,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Maharashtra,2020,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Maharashtra,2021,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Maharashtra,2022,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Maharashtra,2023,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Maharashtra,2024,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Maharashtra,2025,NR,NR,NR,NR,NR,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,not shown on portal (technical upgradation notice)
+Manipur,2018,NR,NR,NR,NR,37.87,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Manipur,2019,NR,NR,NR,NR,8.21,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Manipur,2020,NR,NR,NR,NR,8.66,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Manipur,2021,1.43,52.58,303.31,70.58,1.6,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Manipur,2022,16.57,50.95,73.87,81.71,9.26,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Manipur,2023,14.89,52.99,146.06,99.85,9.03,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Manipur,2024,30.48,57.41,244.62,99.5,14.3,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Manipur,2025,52.69,60.49,248.81,99.99,33.02,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Meghalaya,2018,NR,NR,NR,NR,68.74,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Meghalaya,2019,NR,NR,NR,NR,73.12,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Meghalaya,2020,NR,NR,NR,NR,83.87,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Meghalaya,2021,87.38,50.61,393.63,99.98,75.0,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Meghalaya,2022,70.29,51.55,289.2,99.76,58.15,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Meghalaya,2023,70.38,57.43,324.9,99.76,61.35,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Meghalaya,2024,80.59,62.0,320.99,99.8,71.16,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Meghalaya,2025,83.69,63.81,315.18,99.99,70.1,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Mizoram,2018,NR,NR,NR,NR,28.89,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Mizoram,2019,NR,NR,NR,NR,94.55,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Mizoram,2020,NR,NR,NR,NR,96.67,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Mizoram,2021,99.87,47.75,200.76,100.0,98.57,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Mizoram,2022,94.41,48.04,201.59,99.88,85.68,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Mizoram,2023,86.86,49.08,192.71,99.88,87.09,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Mizoram,2024,99.33,47.75,197.75,99.85,96.34,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Mizoram,2025,96.73,48.78,198.78,99.97,87.07,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Nagaland,2018,NR,NR,NR,NR,1.01,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Nagaland,2019,NR,NR,NR,NR,1.04,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Nagaland,2020,NR,NR,NR,NR,0.62,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Nagaland,2021,10.61,38.15,192.58,95.33,3.25,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Nagaland,2022,32.7,42.92,196.81,100.0,18.09,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Nagaland,2023,63.12,44.77,178.72,100.0,41.22,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Nagaland,2024,65.12,48.31,93.75,100.0,52.83,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Nagaland,2025,67.94,49.18,119.78,100.0,49.51,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Odisha,2018,NR,NR,NR,NR,69.71,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Odisha,2019,NR,NR,NR,NR,86.12,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Odisha,2020,NR,NR,NR,NR,92.85,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Odisha,2021,99.72,46.14,1935.26,99.99,98.81,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Odisha,2022,99.94,47.97,1798.76,99.98,99.34,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Odisha,2023,98.76,49.06,1761.73,100.0,97.31,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Odisha,2024,99.6,48.37,1129.86,99.99,98.73,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Odisha,2025,97.68,49.63,1231.93,99.99,92.87,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Puducherry,2018,NR,NR,NR,NR,46.91,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Puducherry,2019,NR,NR,NR,NR,63.36,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Puducherry,2020,NR,NR,NR,NR,87.56,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Puducherry,2021,99.09,87.59,6.15,100.0,66.47,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Puducherry,2022,89.67,87.54,8.3,100.0,62.44,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Puducherry,2023,67.49,87.39,21.89,100.0,38.25,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Puducherry,2024,84.92,87.56,10.78,100.0,45.69,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Puducherry,2025,82.6,87.97,11.59,100.0,31.29,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Punjab,2018,NR,NR,NR,NR,50.72,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Punjab,2019,NR,NR,NR,NR,77.34,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Punjab,2020,NR,NR,NR,NR,87.43,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Punjab,2021,96.39,60.43,331.43,96.58,87.84,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Punjab,2022,86.18,66.62,321.13,99.94,69.77,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Punjab,2023,93.02,68.67,350.8,100.0,83.34,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Punjab,2024,94.69,68.56,314.01,100.0,82.83,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Punjab,2025,89.11,67.79,242.01,100.0,77.02,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Rajasthan,2018,NR,NR,NR,NR,39.69,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Rajasthan,2019,NR,NR,NR,NR,91.2,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Rajasthan,2020,NR,NR,NR,NR,95.04,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Rajasthan,2021,99.41,66.68,4242.61,98.13,96.01,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Rajasthan,2022,88.2,68.24,3571.27,99.96,79.12,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Rajasthan,2023,99.29,68.71,3751.58,99.94,96.44,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Rajasthan,2024,99.88,69.67,3155.56,99.91,98.85,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Rajasthan,2025,98.8,69.73,2097.86,99.94,95.03,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Sikkim,2018,NR,NR,NR,NR,52.84,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Sikkim,2019,NR,NR,NR,NR,69.18,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Sikkim,2020,NR,NR,NR,NR,93.02,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Sikkim,2021,97.12,52.65,34.34,99.97,92.08,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Sikkim,2022,90.94,54.54,32.46,99.94,83.03,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Sikkim,2023,94.53,55.42,34.32,99.95,87.53,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Sikkim,2024,96.81,55.14,33.85,99.95,91.6,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Sikkim,2025,93.7,55.22,23.99,100.0,85.71,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tamil Nadu,2018,NR,NR,NR,NR,69.51,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Tamil Nadu,2019,NR,NR,NR,NR,88.99,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Tamil Nadu,2020,NR,NR,NR,NR,98.57,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Tamil Nadu,2021,100.0,85.7,3457.23,99.95,99.97,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tamil Nadu,2022,99.45,86.42,3346.53,99.94,97.88,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tamil Nadu,2023,100.0,86.66,4087.02,99.93,99.94,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tamil Nadu,2024,100.0,86.28,3061.1,99.93,99.98,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tamil Nadu,2025,100.0,86.81,1753.32,99.98,99.94,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Telangana,2018,NR,NR,NR,NR,76.41,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Telangana,2019,NR,NR,NR,NR,73.89,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Telangana,2020,NR,NR,NR,NR,92.55,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Telangana,2021,95.76,59.18,1442.93,2.76,92.75,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Telangana,2022,70.97,61.56,1218.63,100.0,46.97,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Telangana,2023,99.28,62.84,1208.57,100.0,96.0,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Telangana,2024,99.88,62.51,1222.87,100.0,99.23,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Telangana,2025,99.3,62.18,731.63,100.0,97.67,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tripura,2018,NR,NR,NR,NR,63.95,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Tripura,2019,NR,NR,NR,NR,77.36,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Tripura,2020,NR,NR,NR,NR,90.75,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Tripura,2021,99.58,47.53,425.84,100.0,96.91,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tripura,2022,97.57,48.46,334.17,99.98,94.09,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tripura,2023,99.75,49.56,370.28,99.98,98.41,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tripura,2024,99.51,50.53,353.37,99.98,97.43,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Tripura,2025,96.77,53.12,262.53,100.0,92.55,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttar Pradesh,2018,NR,NR,NR,NR,59.6,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Uttar Pradesh,2019,NR,NR,NR,NR,85.02,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Uttar Pradesh,2020,NR,NR,NR,NR,87.22,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Uttar Pradesh,2021,96.72,37.25,3254.83,99.84,85.78,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttar Pradesh,2022,94.73,37.86,3111.8,99.97,79.73,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttar Pradesh,2023,98.52,42.26,3451.91,99.97,91.35,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttar Pradesh,2024,99.19,41.87,3363.67,99.99,95.74,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttar Pradesh,2025,98.22,41.56,2405.96,100.0,94.39,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttarakhand,2018,NR,NR,NR,NR,88.04,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Uttarakhand,2019,NR,NR,NR,NR,99.1,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Uttarakhand,2020,NR,NR,NR,NR,99.11,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+Uttarakhand,2021,99.92,55.51,243.17,99.99,99.52,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttarakhand,2022,99.84,56.77,206.38,99.99,99.17,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttarakhand,2023,99.98,56.85,196.84,100.0,99.85,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttarakhand,2024,99.99,55.93,189.97,99.99,99.96,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+Uttarakhand,2025,99.96,58.32,131.81,100.0,99.79,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+West Bengal,2018,NR,NR,NR,NR,61.89,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+West Bengal,2019,NR,NR,NR,NR,78.18,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+West Bengal,2020,NR,NR,NR,NR,89.2,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,FY before 2021-22 not on At a Glance dashboard
+West Bengal,2021,99.68,46.75,3642.15,99.98,98.42,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+West Bengal,2022,98.2,47.98,378.75,97.46,94.58,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,
+West Bengal,2023,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,no/suspended activity (person-days 0 or <1% of peak)
+West Bengal,2024,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,no/suspended activity (person-days 0 or <1% of peak)
+West Bengal,2025,NS,NS,NS,NS,NS,nrega_at_a_glance_scrape_2026-10-20.txt; R14-9_Timely_payment_stage_<FY>.xls,no/suspended activity (person-days 0 or <1% of peak)

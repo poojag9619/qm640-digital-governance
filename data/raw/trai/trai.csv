@@ -1,0 +1,289 @@
+state_name,year,internet_per100,source_document,notes
+Andhra Pradesh,2018,56.23,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Andhra Pradesh
+Telangana,2018,56.23,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Andhra Pradesh
+Assam,2018,32.18,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Assam
+Bihar,2018,25.28,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Bihar
+Jharkhand,2018,25.28,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Bihar
+Delhi,2018,150.08,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Delhi
+Gujarat,2018,57.69,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2018,57.69,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Gujarat
+Haryana,2018,48.89,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Haryana
+Himachal Pradesh,2018,68.35,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2018,50.82,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Jammu & Kashmir
+Ladakh,2018,50.82,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Jammu & Kashmir
+Karnataka,2018,60.2,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Karnataka
+Kerala,2018,65.57,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Kerala
+Lakshadweep,2018,65.57,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Kerala
+West Bengal,2018,41.13,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Kolkata
+Madhya Pradesh,2018,35.82,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2018,35.82,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Madhya Pradesh
+Maharashtra,2018,60.41,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Maharashtra
+Goa,2018,60.41,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Maharashtra
+Arunachal Pradesh,2018,44.31,TRAI_PIR_Oct-Dec_2018.pdf,service area value: North East
+Manipur,2018,44.31,TRAI_PIR_Oct-Dec_2018.pdf,service area value: North East
+Meghalaya,2018,44.31,TRAI_PIR_Oct-Dec_2018.pdf,service area value: North East
+Mizoram,2018,44.31,TRAI_PIR_Oct-Dec_2018.pdf,service area value: North East
+Nagaland,2018,44.31,TRAI_PIR_Oct-Dec_2018.pdf,service area value: North East
+Tripura,2018,44.31,TRAI_PIR_Oct-Dec_2018.pdf,service area value: North East
+Odisha,2018,33.35,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Odisha
+Punjab,2018,70.47,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Punjab
+Chandigarh,2018,70.47,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Punjab
+Rajasthan,2018,44.93,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Rajasthan
+Tamil Nadu,2018,61.03,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Tamil Nadu
+Puducherry,2018,61.03,TRAI_PIR_Oct-Dec_2018.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2018,29.64,TRAI_PIR_Oct-Dec_2018.pdf,service area value: UP (East)
+Uttarakhand,2018,29.64,TRAI_PIR_Oct-Dec_2018.pdf,service area value: UP (West)
+Sikkim,2018,41.13,TRAI_PIR_Oct-Dec_2018.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2018,41.13,TRAI_PIR_Oct-Dec_2018.pdf,service area value: West Bengal
+Andhra Pradesh,2019,62.45,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Andhra Pradesh
+Telangana,2019,62.45,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Andhra Pradesh
+Assam,2019,39.96,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Assam
+Bihar,2019,32.45,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Bihar
+Jharkhand,2019,32.45,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Bihar
+Delhi,2019,168.53,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Delhi
+Gujarat,2019,66.85,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2019,66.85,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Gujarat
+Haryana,2019,58.35,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Haryana
+Himachal Pradesh,2019,80.78,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2019,34.68,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Jammu & Kashmir
+Ladakh,2019,34.68,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Jammu & Kashmir
+Karnataka,2019,69.79,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Karnataka
+Kerala,2019,72.48,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Kerala
+Lakshadweep,2019,72.48,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Kerala
+West Bengal,2019,50.1,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Kolkata
+Madhya Pradesh,2019,43.34,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2019,43.34,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Madhya Pradesh
+Maharashtra,2019,71.74,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Maharashtra
+Goa,2019,71.74,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Maharashtra
+Arunachal Pradesh,2019,52.84,TRAI_PIR_Oct-Dec_2019.pdf,service area value: North East
+Manipur,2019,52.84,TRAI_PIR_Oct-Dec_2019.pdf,service area value: North East
+Meghalaya,2019,52.84,TRAI_PIR_Oct-Dec_2019.pdf,service area value: North East
+Mizoram,2019,52.84,TRAI_PIR_Oct-Dec_2019.pdf,service area value: North East
+Nagaland,2019,52.84,TRAI_PIR_Oct-Dec_2019.pdf,service area value: North East
+Tripura,2019,52.84,TRAI_PIR_Oct-Dec_2019.pdf,service area value: North East
+Odisha,2019,42.64,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Odisha
+Punjab,2019,79.43,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Punjab
+Chandigarh,2019,79.43,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Punjab
+Rajasthan,2019,53.74,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Rajasthan
+Tamil Nadu,2019,69.55,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Tamil Nadu
+Puducherry,2019,69.55,TRAI_PIR_Oct-Dec_2019.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2019,36.32,TRAI_PIR_Oct-Dec_2019.pdf,service area value: UP (East)
+Uttarakhand,2019,36.32,TRAI_PIR_Oct-Dec_2019.pdf,service area value: UP (West)
+Sikkim,2019,50.1,TRAI_PIR_Oct-Dec_2019.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2019,50.1,TRAI_PIR_Oct-Dec_2019.pdf,service area value: West Bengal
+Andhra Pradesh,2020,69.22,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Andhra Pradesh
+Telangana,2020,69.22,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Andhra Pradesh
+Assam,2020,44.11,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Assam
+Bihar,2020,32.89,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Bihar
+Jharkhand,2020,32.89,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Bihar
+Delhi,2020,210.65,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Delhi
+Gujarat,2020,69.04,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2020,69.04,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Gujarat
+Haryana,2020,60.42,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Haryana
+Himachal Pradesh,2020,88.92,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2020,58.75,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Jammu & Kashmir
+Ladakh,2020,58.75,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Jammu & Kashmir
+Karnataka,2020,73.26,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Karnataka
+Kerala,2020,83.43,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Kerala
+Lakshadweep,2020,83.43,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Kerala
+West Bengal,2020,54.37,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Kolkata
+Madhya Pradesh,2020,46.52,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2020,46.52,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Madhya Pradesh
+Maharashtra,2020,79.85,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Maharashtra
+Goa,2020,79.85,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Maharashtra
+Arunachal Pradesh,2020,56.53,TRAI_PIR_Oct-Dec_2020.pdf,service area value: North East
+Manipur,2020,56.53,TRAI_PIR_Oct-Dec_2020.pdf,service area value: North East
+Meghalaya,2020,56.53,TRAI_PIR_Oct-Dec_2020.pdf,service area value: North East
+Mizoram,2020,56.53,TRAI_PIR_Oct-Dec_2020.pdf,service area value: North East
+Nagaland,2020,56.53,TRAI_PIR_Oct-Dec_2020.pdf,service area value: North East
+Tripura,2020,56.53,TRAI_PIR_Oct-Dec_2020.pdf,service area value: North East
+Odisha,2020,46.92,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Odisha
+Punjab,2020,87.59,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Punjab
+Chandigarh,2020,87.59,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Punjab
+Rajasthan,2020,55.42,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Rajasthan
+Tamil Nadu,2020,69.89,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Tamil Nadu
+Puducherry,2020,69.89,TRAI_PIR_Oct-Dec_2020.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2020,40.82,TRAI_PIR_Oct-Dec_2020.pdf,service area value: UP (East)
+Uttarakhand,2020,40.82,TRAI_PIR_Oct-Dec_2020.pdf,service area value: UP (West)
+Sikkim,2020,54.37,TRAI_PIR_Oct-Dec_2020.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2020,54.37,TRAI_PIR_Oct-Dec_2020.pdf,service area value: West Bengal
+Andhra Pradesh,2021,69.69,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Andhra Pradesh
+Telangana,2021,69.69,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Andhra Pradesh
+Assam,2021,45.52,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Assam
+Bihar,2021,35.62,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Bihar
+Jharkhand,2021,35.62,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Bihar
+Delhi,2021,186.58,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Delhi
+Gujarat,2021,71.01,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2021,71.01,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Gujarat
+Haryana,2021,70.99,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Haryana
+Himachal Pradesh,2021,86.56,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2021,61.04,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Jammu & Kashmir
+Ladakh,2021,61.04,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Jammu & Kashmir
+Karnataka,2021,74.01,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Karnataka
+Kerala,2021,87.22,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Kerala
+Lakshadweep,2021,87.22,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Kerala
+West Bengal,2021,57.64,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Kolkata
+Madhya Pradesh,2021,49.07,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2021,49.07,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Madhya Pradesh
+Maharashtra,2021,79.81,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Maharashtra
+Goa,2021,79.81,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Maharashtra
+Arunachal Pradesh,2021,57.56,TRAI_PIR_Oct-Dec_2021.pdf,service area value: North East
+Manipur,2021,57.56,TRAI_PIR_Oct-Dec_2021.pdf,service area value: North East
+Meghalaya,2021,57.56,TRAI_PIR_Oct-Dec_2021.pdf,service area value: North East
+Mizoram,2021,57.56,TRAI_PIR_Oct-Dec_2021.pdf,service area value: North East
+Nagaland,2021,57.56,TRAI_PIR_Oct-Dec_2021.pdf,service area value: North East
+Tripura,2021,57.56,TRAI_PIR_Oct-Dec_2021.pdf,service area value: North East
+Odisha,2021,48.25,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Odisha
+Punjab,2021,86.98,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Punjab
+Chandigarh,2021,86.98,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Punjab
+Rajasthan,2021,55.04,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Rajasthan
+Tamil Nadu,2021,72.94,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Tamil Nadu
+Puducherry,2021,72.94,TRAI_PIR_Oct-Dec_2021.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2021,45.39,TRAI_PIR_Oct-Dec_2021.pdf,service area value: UP (East)
+Uttarakhand,2021,45.39,TRAI_PIR_Oct-Dec_2021.pdf,service area value: UP (West)
+Sikkim,2021,57.64,TRAI_PIR_Oct-Dec_2021.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2021,57.64,TRAI_PIR_Oct-Dec_2021.pdf,service area value: West Bengal
+Andhra Pradesh,2022,71.22,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Andhra Pradesh
+Telangana,2022,71.22,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Andhra Pradesh
+Assam,2022,47.42,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Assam
+Bihar,2022,38.29,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Bihar
+Jharkhand,2022,38.29,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Bihar
+Delhi,2022,240.99,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Delhi
+Gujarat,2022,72.3,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2022,72.3,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Gujarat
+Haryana,2022,61.96,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Haryana
+Himachal Pradesh,2022,82.77,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2022,67.16,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Jammu & Kashmir
+Ladakh,2022,67.16,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Jammu & Kashmir
+Karnataka,2022,77.1,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Karnataka
+Kerala,2022,88.6,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Kerala
+Lakshadweep,2022,88.6,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Kerala
+West Bengal,2022,59.28,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Kolkata
+Madhya Pradesh,2022,51.23,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2022,51.23,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Madhya Pradesh
+Maharashtra,2022,81.59,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Maharashtra
+Goa,2022,81.59,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Maharashtra
+Arunachal Pradesh,2022,59.66,TRAI_PIR_Oct-Dec_2022.pdf,service area value: North East
+Manipur,2022,59.66,TRAI_PIR_Oct-Dec_2022.pdf,service area value: North East
+Meghalaya,2022,59.66,TRAI_PIR_Oct-Dec_2022.pdf,service area value: North East
+Mizoram,2022,59.66,TRAI_PIR_Oct-Dec_2022.pdf,service area value: North East
+Nagaland,2022,59.66,TRAI_PIR_Oct-Dec_2022.pdf,service area value: North East
+Tripura,2022,59.66,TRAI_PIR_Oct-Dec_2022.pdf,service area value: North East
+Odisha,2022,49.88,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Odisha
+Punjab,2022,84.39,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Punjab
+Chandigarh,2022,84.39,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Punjab
+Rajasthan,2022,56.73,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Rajasthan
+Tamil Nadu,2022,73.81,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Tamil Nadu
+Puducherry,2022,73.81,TRAI_PIR_Oct-Dec_2022.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2022,45.82,TRAI_PIR_Oct-Dec_2022.pdf,service area value: UP (East)
+Uttarakhand,2022,45.82,TRAI_PIR_Oct-Dec_2022.pdf,service area value: UP (West)
+Sikkim,2022,59.28,TRAI_PIR_Oct-Dec_2022.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2022,59.28,TRAI_PIR_Oct-Dec_2022.pdf,service area value: West Bengal
+Andhra Pradesh,2023,76.37,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Andhra Pradesh
+Telangana,2023,76.37,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Andhra Pradesh
+Assam,2023,52.27,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Assam
+Bihar,2023,42.57,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Bihar
+Jharkhand,2023,42.57,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Bihar
+Delhi,2023,257.13,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Delhi
+Gujarat,2023,75.39,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2023,75.39,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Gujarat
+Haryana,2023,65.34,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Haryana
+Himachal Pradesh,2023,86.51,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2023,70.66,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Jammu & Kashmir
+Ladakh,2023,70.66,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Jammu & Kashmir
+Karnataka,2023,83.7,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Karnataka
+Kerala,2023,93.99,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Kerala
+Lakshadweep,2023,93.99,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Kerala
+West Bengal,2023,62.72,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Kolkata
+Madhya Pradesh,2023,54.43,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2023,54.43,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Madhya Pradesh
+Maharashtra,2023,86.12,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Maharashtra
+Goa,2023,86.12,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Maharashtra
+Arunachal Pradesh,2023,63.94,TRAI_PIR_Oct-Dec_2023.pdf,service area value: North East
+Manipur,2023,63.94,TRAI_PIR_Oct-Dec_2023.pdf,service area value: North East
+Meghalaya,2023,63.94,TRAI_PIR_Oct-Dec_2023.pdf,service area value: North East
+Mizoram,2023,63.94,TRAI_PIR_Oct-Dec_2023.pdf,service area value: North East
+Nagaland,2023,63.94,TRAI_PIR_Oct-Dec_2023.pdf,service area value: North East
+Tripura,2023,63.94,TRAI_PIR_Oct-Dec_2023.pdf,service area value: North East
+Odisha,2023,53.59,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Odisha
+Punjab,2023,88.08,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Punjab
+Chandigarh,2023,88.08,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Punjab
+Rajasthan,2023,63.08,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Rajasthan
+Tamil Nadu,2023,78.47,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Tamil Nadu
+Puducherry,2023,78.47,TRAI_PIR_Oct-Dec_2023.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2023,49.61,TRAI_PIR_Oct-Dec_2023.pdf,service area value: UP (East)
+Uttarakhand,2023,49.61,TRAI_PIR_Oct-Dec_2023.pdf,service area value: UP (West)
+Sikkim,2023,62.72,TRAI_PIR_Oct-Dec_2023.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2023,62.72,TRAI_PIR_Oct-Dec_2023.pdf,service area value: West Bengal
+Andhra Pradesh,2024,79.26,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Andhra Pradesh
+Telangana,2024,79.26,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Andhra Pradesh
+Assam,2024,56.05,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Assam
+Bihar,2024,43.17,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Bihar
+Jharkhand,2024,43.17,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Bihar
+Delhi,2024,259.59,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Delhi
+Gujarat,2024,76.18,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2024,76.18,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Gujarat
+Haryana,2024,67.19,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Haryana
+Himachal Pradesh,2024,88.88,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2024,73.72,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Jammu & Kashmir
+Ladakh,2024,73.72,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Jammu & Kashmir
+Karnataka,2024,88.04,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Karnataka
+Kerala,2024,99.5,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Kerala
+Lakshadweep,2024,99.5,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Kerala
+West Bengal,2024,64.32,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Kolkata
+Madhya Pradesh,2024,56.33,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2024,56.33,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Madhya Pradesh
+Maharashtra,2024,86.77,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Maharashtra
+Goa,2024,86.77,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Maharashtra
+Arunachal Pradesh,2024,65.07,TRAI_PIR_Oct-Dec_2024.pdf,service area value: North East
+Manipur,2024,65.07,TRAI_PIR_Oct-Dec_2024.pdf,service area value: North East
+Meghalaya,2024,65.07,TRAI_PIR_Oct-Dec_2024.pdf,service area value: North East
+Mizoram,2024,65.07,TRAI_PIR_Oct-Dec_2024.pdf,service area value: North East
+Nagaland,2024,65.07,TRAI_PIR_Oct-Dec_2024.pdf,service area value: North East
+Tripura,2024,65.07,TRAI_PIR_Oct-Dec_2024.pdf,service area value: North East
+Odisha,2024,58.19,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Odisha
+Punjab,2024,89.06,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Punjab
+Chandigarh,2024,89.06,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Punjab
+Rajasthan,2024,63.03,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Rajasthan
+Tamil Nadu,2024,81.33,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Tamil Nadu
+Puducherry,2024,81.33,TRAI_PIR_Oct-Dec_2024.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2024,51.2,TRAI_PIR_Oct-Dec_2024.pdf,service area value: UP (East)
+Uttarakhand,2024,51.2,TRAI_PIR_Oct-Dec_2024.pdf,service area value: UP (West)
+Sikkim,2024,64.32,TRAI_PIR_Oct-Dec_2024.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2024,64.32,TRAI_PIR_Oct-Dec_2024.pdf,service area value: West Bengal
+Andhra Pradesh,2025,80.6,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Andhra Pradesh
+Telangana,2025,80.6,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Andhra Pradesh
+Assam,2025,58.84,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Assam
+Bihar,2025,46.47,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Bihar
+Jharkhand,2025,46.47,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Bihar
+Delhi,2025,266.41,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Delhi
+Gujarat,2025,80.54,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Gujarat
+Dadra and Nagar Haveli and Daman and Diu,2025,80.54,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Gujarat
+Haryana,2025,68.35,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Haryana
+Himachal Pradesh,2025,93.95,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Himachal Pradesh
+Jammu and Kashmir,2025,79.2,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Jammu & Kashmir
+Ladakh,2025,79.2,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Jammu & Kashmir
+Karnataka,2025,94.59,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Karnataka
+Kerala,2025,104.84,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Kerala
+Lakshadweep,2025,104.84,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Kerala
+West Bengal,2025,67.54,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Kolkata
+Madhya Pradesh,2025,61.22,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Madhya Pradesh
+Chhattisgarh,2025,61.22,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Madhya Pradesh
+Maharashtra,2025,90.11,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Maharashtra
+Goa,2025,90.11,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Maharashtra
+Arunachal Pradesh,2025,69.01,TRAI_PIR_Oct-Dec_2025.pdf,service area value: North East
+Manipur,2025,69.01,TRAI_PIR_Oct-Dec_2025.pdf,service area value: North East
+Meghalaya,2025,69.01,TRAI_PIR_Oct-Dec_2025.pdf,service area value: North East
+Mizoram,2025,69.01,TRAI_PIR_Oct-Dec_2025.pdf,service area value: North East
+Nagaland,2025,69.01,TRAI_PIR_Oct-Dec_2025.pdf,service area value: North East
+Tripura,2025,69.01,TRAI_PIR_Oct-Dec_2025.pdf,service area value: North East
+Odisha,2025,60.84,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Odisha
+Punjab,2025,91.52,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Punjab
+Chandigarh,2025,91.52,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Punjab
+Rajasthan,2025,65.23,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Rajasthan
+Tamil Nadu,2025,85.04,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Tamil Nadu
+Puducherry,2025,85.04,TRAI_PIR_Oct-Dec_2025.pdf,service area value: Tamil Nadu
+Uttar Pradesh,2025,53.88,TRAI_PIR_Oct-Dec_2025.pdf,service area value: UP (East)
+Uttarakhand,2025,53.88,TRAI_PIR_Oct-Dec_2025.pdf,service area value: UP (West)
+Sikkim,2025,67.54,TRAI_PIR_Oct-Dec_2025.pdf,service area value: West Bengal
+Andaman and Nicobar Islands,2025,67.54,TRAI_PIR_Oct-Dec_2025.pdf,service area value: West Bengal
