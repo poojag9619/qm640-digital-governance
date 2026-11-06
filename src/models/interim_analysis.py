@@ -31,7 +31,7 @@ OUT = REPORTS / "interim"
 OUT.mkdir(parents=True, exist_ok=True)
 SEED = 640
 R: dict = {}
-plt.rcParams.update({"font.family": "DejaVu Serif", "font.size": 8.5, "axes.spines.top": False,
+plt.rcParams.update({"font.family": "DejaVu Serif", "font.size": 9.5, "axes.spines.top": False,
                      "axes.spines.right": False, "figure.dpi": 200})
 BLUE, GREY, OCHRE, RED = "#2f5d8a", "#8a96a3", "#b07a2a", "#a23b3b"
 FE = " + C(state_code) + C(year)"
@@ -39,7 +39,7 @@ FE = " + C(state_code) + C(year)"
 
 def save(fig, name):
     fig.tight_layout()
-    fig.savefig(FIGURES / f"interim_{name}.png")
+    fig.savefig(FIGURES / f"interim_{name}.png", bbox_inches="tight", pad_inches=0.05)
     plt.close(fig)
 
 
@@ -135,15 +135,15 @@ m = win[win.sample_rq1 == 1].copy()
 R["rq1_n"], R["rq1_states"] = int(len(m)), int(m.state_code.nunique())
 
 # Figure: outcome distribution + by-year boxplot
-fig, ax = plt.subplots(1, 2, figsize=(6.6, 2.7))
+fig, ax = plt.subplots(1, 2, figsize=(6.8, 3.0))
 ax[0].hist(m.nrega_timely_pct, bins=20, color=BLUE, edgecolor="white")
 ax[0].axvline(m.nrega_timely_pct.median(), color=OCHRE, ls="--", lw=1)
 ax[0].set_xlabel("% of wage payments generated within 15 days"); ax[0].set_ylabel("State-years")
-ax[0].set_title("(a) Distribution, 2018-2025", loc="left", fontsize=8.5)
+ax[0].set_title("(a) Distribution, 2018-2025", loc="left", fontsize=9.5)
 yrs = sorted(m.year.unique())
 ax[1].boxplot([m.loc[m.year == y, "nrega_timely_pct"] for y in yrs], tick_labels=[str(y) for y in yrs],
               widths=.55, flierprops=dict(marker="o", ms=3, mfc=RED, mec=RED), medianprops=dict(color=OCHRE))
-ax[1].set_title("(b) By year (FY t to t+1)", loc="left", fontsize=8.5); ax[1].set_ylabel("%")
+ax[1].set_title("(b) By year (FY t to t+1)", loc="left", fontsize=9.5); ax[1].set_ylabel("%"); ax[1].tick_params(axis="x", labelrotation=45)
 save(fig, "outcome_distribution")
 R["timely_median"] = float(m.nrega_timely_pct.median()); R["timely_mean"] = float(m.nrega_timely_pct.mean())
 R["timely_share_ge95"] = float((m.nrega_timely_pct >= 95).mean()); R["timely_share_lt80"] = float((m.nrega_timely_pct < 80).mean())
@@ -154,12 +154,12 @@ hm = m.pivot(index="state_name", columns="year", values="nrega_timely_pct")
 hm = hm.loc[hm.mean(axis=1).sort_values().index]
 fig, ax = plt.subplots(figsize=(6.0, 6.4))
 im = ax.imshow(hm.values, cmap="RdYlBu", vmin=0, vmax=100, aspect="auto")
-ax.set_xticks(range(hm.shape[1]), hm.columns); ax.set_yticks(range(hm.shape[0]), hm.index, fontsize=7)
+ax.set_xticks(range(hm.shape[1]), hm.columns, rotation=45); ax.set_yticks(range(hm.shape[0]), hm.index, fontsize=7.5)
 for i in range(hm.shape[0]):
     for j in range(hm.shape[1]):
         v = hm.values[i, j]
         if not np.isnan(v):
-            ax.text(j, i, f"{v:.0f}", ha="center", va="center", fontsize=6, color="white" if v < 30 or v > 90 else "#222")
+            ax.text(j, i, f"{v:.0f}", ha="center", va="center", fontsize=7, color="white" if v < 30 or v > 90 else "#222")
 fig.colorbar(im, ax=ax, fraction=0.03, label="% within 15 days")
 save(fig, "timely_heatmap")
 R["laggards"] = hm.mean(axis=1).sort_values().head(6).round(1).to_dict()
@@ -170,16 +170,16 @@ nat = panel.groupby("year").apply(lambda d: pd.Series({"upi": d.upi_txn.sum() / 
                                                        "net": np.average(d.internet_per100, weights=d.population)}),
                                   include_groups=False)
 q = panel.groupby("year").upi_txn_pc.quantile([.1, .5, .9]).unstack()
-fig, ax = plt.subplots(1, 2, figsize=(6.6, 2.6))
+fig, ax = plt.subplots(1, 2, figsize=(6.8, 2.95))
 ax[0].fill_between(q.index, q[.1], q[.9], color=BLUE, alpha=.18, label="10th-90th percentile of states")
 ax[0].plot(q.index, q[.5], color=BLUE, marker="o", ms=3, label="Median state")
 ax[0].plot(nat.index, nat.upi, color=OCHRE, marker="s", ms=3, label="India")
 ax[0].set_yscale("log"); ax[0].set_ylabel("Transactions per person (log)")
-ax[0].set_title("(a) PhonePe UPI transactions per person", loc="left", fontsize=8.5); ax[0].legend(frameon=False, fontsize=6.5)
+ax[0].set_title("(a) PhonePe UPI transactions per person", loc="left", fontsize=9.5); ax[0].legend(frameon=False, fontsize=7.5)
 qn = panel.groupby("year").internet_per100.quantile([.1, .5, .9]).unstack()
 ax[1].fill_between(qn.index, qn[.1], qn[.9], color=GREY, alpha=.25)
 ax[1].plot(qn.index, qn[.5], color=GREY, marker="o", ms=3, label="Median state"); ax[1].plot(nat.index, nat.net, color=OCHRE, marker="s", ms=3, label="India")
-ax[1].set_title("(b) Internet subscribers per 100", loc="left", fontsize=8.5); ax[1].legend(frameon=False, fontsize=6.5)
+ax[1].set_title("(b) Internet subscribers per 100", loc="left", fontsize=9.5); ax[1].legend(frameon=False, fontsize=7.5)
 save(fig, "adoption_trends")
 R["upi_pc_india"] = nat.upi.round(2).to_dict(); R["internet_india"] = nat.net.round(1).to_dict()
 R["upi_pc_p90_p10_2025"] = float(q.loc[2025, .9] / q.loc[2025, .1])
@@ -193,21 +193,21 @@ b = m.groupby("state_code")[["ln_upi_txn_pc", "nrega_timely_pct"]].mean()
 wd = m.copy()
 for c in ["ln_upi_txn_pc", "nrega_timely_pct"]:
     wd[c + "_w"] = wd[c] - wd.groupby("state_code")[c].transform("mean") - wd.groupby("year")[c].transform("mean") + wd[c].mean()
-fig, ax = plt.subplots(1, 2, figsize=(6.6, 2.7))
+fig, ax = plt.subplots(1, 2, figsize=(6.8, 3.0))
 ax[0].scatter(b.ln_upi_txn_pc, b.nrega_timely_pct, s=14, color=BLUE)
 for code, r in b.iterrows():
     if r.nrega_timely_pct < 75:
-        ax[0].annotate(code, (r.ln_upi_txn_pc, r.nrega_timely_pct), fontsize=6, xytext=(3, 0), textcoords="offset points")
+        ax[0].annotate(code, (r.ln_upi_txn_pc, r.nrega_timely_pct), fontsize=7, xytext=(3, 0), textcoords="offset points")
 rb = stats.spearmanr(b.ln_upi_txn_pc, b.nrega_timely_pct)
 ax[0].set_xlabel("State mean ln(1 + UPI per person)"); ax[0].set_ylabel("State mean timely payment (%)")
-ax[0].set_title(f"(a) Between states (Spearman ρ = {rb[0]:.2f})", loc="left", fontsize=8.5)
+ax[0].set_title(f"(a) Between states (Spearman ρ = {rb[0]:.2f})", loc="left", fontsize=9.5)
 ax[1].scatter(wd.ln_upi_txn_pc_w, wd.nrega_timely_pct_w, s=9, color=GREY)
 z = np.polyfit(wd.ln_upi_txn_pc_w, wd.nrega_timely_pct_w, 1)
 xs = np.linspace(wd.ln_upi_txn_pc_w.min(), wd.ln_upi_txn_pc_w.max(), 20)
 ax[1].plot(xs, np.polyval(z, xs), color=OCHRE)
 rw = stats.pearsonr(wd.ln_upi_txn_pc_w, wd.nrega_timely_pct_w)
-ax[1].set_xlabel("ln UPI per person, net of state and year means"); ax[1].set_ylabel("Timely payment, net of means")
-ax[1].set_title(f"(b) Within states over time (r = {rw[0]:.2f})", loc="left", fontsize=8.5)
+ax[1].set_xlabel("ln UPI per person, net of means"); ax[1].set_ylabel("Timely payment, net of means")
+ax[1].set_title(f"(b) Within states over time (r = {rw[0]:.2f})", loc="left", fontsize=9.5)
 save(fig, "between_within")
 R["between_rho"], R["between_p"] = float(rb[0]), float(rb[1]); R["within_r"], R["within_p"] = float(rw[0]), float(rw[1])
 
@@ -215,7 +215,7 @@ R["between_rho"], R["between_p"] = float(rb[0]), float(rb[1]); R["within_r"], R[
 cvars = {"nrega_timely_pct": "Timely pay %", "nrega_women_pd_pct": "Women PD %", "ln_upi_txn_pc": "ln UPI pc",
          "internet_per100": "Internet/100", "literacy_pct": "Literacy", "ln_nsdp_base": "ln NSDP 2021"}
 cm = m[list(cvars)].corr(method="spearman").rename(index=cvars, columns=cvars)
-fig, ax = plt.subplots(figsize=(4.6, 3.8))
+fig, ax = plt.subplots(figsize=(5.4, 4.4))
 im = ax.imshow(cm.values, cmap="RdBu_r", vmin=-1, vmax=1)
 ax.set_xticks(range(len(cm)), cm.columns, rotation=40, ha="right"); ax.set_yticks(range(len(cm)), cm.index)
 for i in range(len(cm)):
@@ -227,9 +227,9 @@ R["corr"] = cm.round(2).to_dict()
 
 # Figure: women's share of person-days
 wp = m.groupby("state_name").nrega_women_pd_pct.mean().sort_values()
-fig, ax = plt.subplots(figsize=(6.0, 4.8))
+fig, ax = plt.subplots(figsize=(6.2, 5.6))
 ax.barh(wp.index, wp.values, color=[RED if v < 33 else BLUE for v in wp.values], height=.65)
-ax.axvline(33.3, color=OCHRE, ls="--", lw=1); ax.text(34, 0.2, "one-third", fontsize=6.5, color=OCHRE)
+ax.axvline(33.3, color=OCHRE, ls="--", lw=1); ax.text(34, 0.2, "one-third", fontsize=7.5, color=OCHRE)
 ax.set_xlabel("Women's share of person-days, mean 2021-2025 (%)"); ax.tick_params(axis="y", labelsize=6.5)
 save(fig, "women_share")
 R["women_below_third"] = wp[wp < 33.3].round(1).to_dict(); R["women_mean"] = float(m.nrega_women_pd_pct.mean())
@@ -270,14 +270,7 @@ big = m[(m.population > 2e6)]
 r1b = cl(f1, big)
 models["rq1_large_states"] = {"n": int(r1b.nobs), "states": int(big.state_code.nunique()),
                               "coef": coefs(r1b, ["ln_upi_txn_pc", "internet_per100"])}
-# post hoc power / MDE
-S, T = m.state_code.nunique(), m.year.nunique()
-p1 = 2 + (S - 1) + (T - 1)
-deff = 1 + (T - 1) * max(rho, 0)
-n_eff = len(m) / deff
-models["power"] = {"S": int(S), "T": int(T), "p": int(p1), "deff": deff, "n_eff": n_eff,
-                   "power_f2_010": power_regression(int(n_eff), 2, p1, 0.10),
-                   "mde_f2": mde_f2(int(n_eff), 2, p1)}
+# post hoc power and MDE: see src/models/power_recheck.py (single source for Table 7)
 
 # RQ1 predictive comparison: rolling origin (train <= t, test t+1)
 def fit_predict(kind, tr, te):
@@ -300,9 +293,13 @@ def fit_predict(kind, tr, te):
         trr["state_hist"] = trr.state_code.map(mu); tee["state_hist"] = tee.state_code.map(mu)
         rf = RandomForestRegressor(n_estimators=400, min_samples_leaf=3, random_state=SEED)
         rf.fit(trr[X + ["state_hist"]], trr.nrega_timely_pct)
+        pi_ = permutation_importance(rf, tee[X + ["state_hist"]], tee.nrega_timely_pct, n_repeats=30,
+                                     random_state=SEED, scoring="neg_root_mean_squared_error")
+        OOS_PI.append(dict(zip(X + ["state_hist"], pi_.importances_mean)))
         return rf.predict(tee[X + ["state_hist"]])
 
 kinds = ["naive", "state_mean", "pooled", "fe", "rf"]
+OOS_PI = []
 res_rows = []
 for t in (2019, 2020, 2021, 2022, 2023, 2024):
     tr, te = m[m.year <= t], m[m.year == t + 1]
@@ -332,7 +329,10 @@ for s in m.state_code.unique():
 lo = pd.DataFrame(lo_rows).groupby("model").agg(rmse=("se", lambda x: float(np.sqrt(x.mean()))), mae=("ae", "mean"))
 models["loso"] = lo.round(3).to_dict(orient="index")
 
-# feature importance (RF on all data, permutation, with state history excluded to avoid leakage of outcome means)
+# feature importance, out of sample: permutation on each rolling-origin test year (increase in RMSE, points)
+oos = pd.DataFrame(OOS_PI)
+models["perm_importance_oos"] = {k: {"mean": float(oos[k].mean()), "sd": float(oos[k].std())} for k in oos.columns}
+# in-sample importance kept for comparison only (fitted and scored on the same data)
 rf_all = RandomForestRegressor(n_estimators=500, min_samples_leaf=3, random_state=SEED).fit(m[X], m.nrega_timely_pct)
 pi = permutation_importance(rf_all, m[X], m.nrega_timely_pct, n_repeats=30, random_state=SEED)
 models["perm_importance"] = {x: {"mean": float(a), "sd": float(b)} for x, a, b in zip(X, pi.importances_mean, pi.importances_std)}
@@ -389,4 +389,4 @@ models["rq2_2021on"] = {"n": int(r2w.nobs), "coef": coefs(r2w, terms2), "wald_in
 
 R["models"] = models
 (OUT / "results.json").write_text(json.dumps(R, indent=1, default=float))
-print(json.dumps({k: models[k] for k in ["rq1_fe", "power", "rolling", "loso", "rq2", "rq4"]}, indent=1, default=float)[:6000])
+print(json.dumps({k: models[k] for k in ["rq1_fe", "rolling", "loso", "perm_importance_oos", "rq2", "rq4"]}, indent=1, default=float)[:6000])

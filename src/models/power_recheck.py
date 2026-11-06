@@ -40,6 +40,15 @@ def power(n, u, p, f2, alpha=0.05):
     return float(1 - stats.ncf.cdf(crit, u, df2, f2 * n))
 
 
+def mde_f2(n, u, p, power_target=0.80):
+    """Smallest f2 detectable with the target power at sample size n (bisection)."""
+    lo, hi = 1e-4, 5.0
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        lo, hi = (mid, hi) if power(n, u, p, mid) < power_target else (lo, mid)
+    return float(hi)
+
+
 def main():
     panel = pd.read_csv(PROCESSED / "analysis_panel.csv")
     out = {}
@@ -65,7 +74,9 @@ def main():
                    "n_actual": int(len(d)), "rho_hat": round(rho, 3), "deff_rhohat": round(deffhat, 3),
                    "power_actual_rho10": round(power(int(len(d) / deff10), u, p, f2), 3),
                    "power_actual_rhohat": round(power(int(len(d) / deffhat), u, p, f2), 3),
-                   "power_actual_srs": round(power(len(d), u, p, f2), 3)}
+                   "power_actual_srs": round(power(len(d), u, p, f2), 3),
+                   "mde_f2_rho10": round(mde_f2(int(len(d) / deff10), u, p), 3),
+                   "mde_f2_rhohat": round(mde_f2(int(len(d) / deffhat), u, p), 3)}
     path = REPORTS / "interim" / "power_recheck.json"
     path.write_text(json.dumps(out, indent=1))
     print(json.dumps(out, indent=1))

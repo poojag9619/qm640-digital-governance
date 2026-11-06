@@ -18,7 +18,9 @@
   "deff_rhohat": 3.094,
   "power_actual_rho10": 0.926,
   "power_actual_rhohat": 0.662,
-  "power_actual_srs": 0.995
+  "power_actual_srs": 0.995,
+  "mde_f2_rho10": 0.069,
+  "mde_f2_rhohat": 0.136
  },
  "RQ2": {
   "u": 2,
@@ -39,7 +41,9 @@
   "deff_rhohat": 3.204,
   "power_actual_rho10": 0.834,
   "power_actual_rhohat": 0.518,
-  "power_actual_srs": 0.975
+  "power_actual_srs": 0.975,
+  "mde_f2_rho10": 0.074,
+  "mde_f2_rhohat": 0.149
  },
  "RQ4": {
   "u": 1,
@@ -60,6 +64,8 @@
   "deff_rhohat": 2.151,
   "power_actual_rho10": 0.754,
   "power_actual_rhohat": 0.549,
-  "power_actual_srs": 0.88
+  "power_actual_srs": 0.88,
+  "mde_f2_rho10": 0.075,
+  "mde_f2_rhohat": 0.121
  }
 }

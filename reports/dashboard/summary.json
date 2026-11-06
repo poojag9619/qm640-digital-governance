@@ -1,0 +1,38 @@
+{
+ "year": 2025,
+ "states": 30,
+ "high_risk": 10,
+ "lagging_observed": 11,
+ "flag_counts": {
+  "On track": 20,
+  "Lagging (predicted and observed)": 9,
+  "High risk": 1
+ },
+ "top5": [
+  {
+   "state_name": "Andaman and Nicobar Islands",
+   "timely": 27.36,
+   "risk": 0.984
+  },
+  {
+   "state_name": "Manipur",
+   "timely": 33.02,
+   "risk": 0.983
+  },
+  {
+   "state_name": "Nagaland",
+   "timely": 49.51,
+   "risk": 0.961
+  },
+  {
+   "state_name": "Puducherry",
+   "timely": 31.29,
+   "risk": 0.934
+  },
+  {
+   "state_name": "Goa",
+   "timely": 53.29,
+   "risk": 0.914
+  }
+ ]
+}

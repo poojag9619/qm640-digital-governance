@@ -42,6 +42,46 @@ python src/report/dataset_preview.py      # dataset preview figure
 python -m src.models.power_recheck       # sample-size re-check -> reports/interim/power_recheck.json
 ```
 
+## Final report (reproduce every number and figure)
+
+```bash
+python run_all.py --offline                  # data stages (ingest, validate, merge, derive)
+python -m src.db.build_db                    # SQLite database -> data/processed/qm640.sqlite
+python -m src.models.interim_analysis        # EDA figures, fixed-effects models -> reports/interim/results.json
+python -m src.models.power_recheck           # sample size and power -> reports/interim/power_recheck.json
+python -m src.models.sensitivity             # wild bootstrap, influence, quantile, MI, Holm, MDEs (~15 min)
+python -m src.models.final_analysis          # train/test accuracy, hold-out, ROC/confusion -> reports/final/
+python src/report/interim_figures.py         # coefficient and rolling-origin figures
+python src/report/dataset_preview.py         # dataset excerpt figure
+python src/report/final_pipeline_diagram.py  # architecture diagram
+python -m src.deploy.build_dashboard         # scores the latest year -> reports/dashboard/index.html
+```
+
+Everything runs on a CPU (no GPU); the predictive evaluation takes about 2 minutes.
+
+### Deployment
+
+`src/deploy/build_dashboard.py` retrains the selected models (random-forest risk classifier and the naive
+own-history benchmark) on all past years, scores the latest year, writes the scores to the `rolling_predictions`
+table in the SQLite database, and publishes `reports/dashboard/index.html`, a self-contained page that can be
+served with GitHub Pages or any web server. Rerun it whenever a new financial year's R14.9 report is added.
+
+### Database
+
+`data/processed/qm640.sqlite` holds the tables `states`, `state_year`, `value_status`, `data_dictionary` and
+`rolling_predictions`, and the views `v_rq1`, `v_rq2`, `v_rq4` and `v_latest_status`:
+
+```python
+import sqlite3, pandas as pd
+con = sqlite3.connect("data/processed/qm640.sqlite")
+pd.read_sql("SELECT * FROM v_rq1", con)
+```
+
+### RQ3 status
+
+RQ3 was not estimated: Reddit Data API access was not obtained, so the feasibility gate was not met.
+The collection and sentiment code remains in `src/collect/social_posts.py` and `src/features/sentiment.py`.
+
 ## Outputs
 
 | File | Contents |
@@ -122,7 +162,9 @@ data/processed/  state_year_panel.csv, analysis_panel.csv, data_dictionary.csv
 src/collect/     phonepe_pulse.py, manual_sources.py, datagov_api.py, social_posts.py
 src/clean/       build_panel.py
 src/features/    build_features.py, sentiment.py
-src/models/      power_analysis.py, power_recheck.py, interim_analysis.py, rq_models.py
+src/models/      power_analysis.py, power_recheck.py, interim_analysis.py, sensitivity.py, final_analysis.py, rq_models.py
+src/db/          build_db.py
+src/deploy/      build_dashboard.py
 notebooks/       01_eda_phonepe.ipynb
 reports/         missing-data report, validation logs, model results, figures
 run_all.py       full pipeline
