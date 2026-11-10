@@ -7,9 +7,10 @@ Tables
   state_year        the analysis panel: one row per state x year (data/processed/analysis_panel.csv)
   value_status      value status of every source cell: ok / NR (not reported) / NS (not applicable)
   data_dictionary   description, unit, source and role of every state_year column
+  nesda_state_year  NeSDA e-service availability, 36 units x 2023-2025 (RQ3 outcome)
   rolling_predictions, model_metrics   written by src/deploy/build_dashboard.py
 Views
-  v_rq1, v_rq2, v_rq4  the analysis samples of each research question
+  v_rq1 ... v_rq4      the analysis samples of each research question
   v_latest_status      the latest year of the outcome for each state
 SQLite is used because the data are small (288 rows), it needs no server, and the single
 file can be versioned and opened from Python, R, Excel (ODBC) or a BI tool.
@@ -59,10 +60,16 @@ def main():
     con.execute("CREATE UNIQUE INDEX ix_state_year ON state_year (state_code, year)")
     status.to_sql("value_status", con, index=False)
     dd.to_sql("data_dictionary", con, index=False)
+    nesda = PROCESSED / "nesda_state_year.csv"
+    if nesda.exists():                        # RQ3 outcome (src/models/rq3_nesda.py)
+        pd.read_csv(nesda).to_sql("nesda_state_year", con, index=False)
+        VIEWS["v_rq3"] = """SELECT n.state_code, n.year, n.mandatory_sat, n.total_eservices, s.adoption_index
+                            FROM nesda_state_year n JOIN state_year s USING (state_code, year)
+                            WHERE s.adoption_index IS NOT NULL"""
     for name, sql in VIEWS.items():
         con.execute(f"CREATE VIEW {name} AS {sql}")
     con.commit()
-    for t in ["states", "state_year", "value_status", "data_dictionary", "v_rq1", "v_rq2", "v_rq4", "v_latest_status"]:
+    for t in ["states", "state_year", "value_status", "data_dictionary"] + list(VIEWS):
         print(f"{t:18s} {con.execute(f'SELECT COUNT(*) FROM {t}').fetchone()[0]:>6} rows")
     con.close()
     print("->", DB)

@@ -11,7 +11,7 @@ sample is at least 30 units × 8 years = 240 state-years.
 |---|---|---|---|
 | RQ1 (core) | Is digital adoption associated with timely MGNREGS wage payment within states over time? | Two-way fixed-effects OLS, state-clustered SEs | 216 state-years |
 | RQ2 (core) | Does that association differ by state literacy and income? | Moderated fixed-effects regression (2 interactions) | 213 state-years |
-| RQ3 (secondary, gated) | Is online citizen sentiment about digital services associated with state digital adoption? | VADER sentiment, Spearman correlation, cluster bootstrap | 102 state-years; 505 labelled posts |
+| RQ3 (revised) | Is the availability of online public services (NeSDA) associated with state digital adoption? | Spearman correlation, state-cluster permutation test and bootstrap | 102 state-years |
 | RQ4 (core) | Is digital adoption associated with the inclusion of women and rural residents? | Fixed-effects regression, Holm-adjusted | 206 state-years |
 
 `python -m src.models.power_analysis` reproduces every sample-size figure.
@@ -51,6 +51,7 @@ python -m src.models.interim_analysis        # EDA figures, fixed-effects models
 python -m src.models.power_recheck           # sample size and power -> reports/interim/power_recheck.json
 python -m src.models.sensitivity             # wild bootstrap, influence, quantile, MI, Holm, MDEs (~15 min)
 python -m src.models.final_analysis          # train/test accuracy, hold-out, ROC/confusion -> reports/final/
+python -m src.models.rq3_nesda               # RQ3 (revised) -> reports/final/rq3_results.json
 python src/report/interim_figures.py         # coefficient and rolling-origin figures
 python src/report/dataset_preview.py         # dataset excerpt figure
 python src/report/final_pipeline_diagram.py  # architecture diagram
@@ -77,10 +78,18 @@ con = sqlite3.connect("data/processed/qm640.sqlite")
 pd.read_sql("SELECT * FROM v_rq1", con)
 ```
 
-### RQ3 status
+### RQ3 status (revised)
 
-RQ3 was not estimated: Reddit Data API access was not obtained, so the feasibility gate was not met.
-The collection and sentiment code remains in `src/collect/social_posts.py` and `src/features/sentiment.py`.
+The original RQ3 outcome, citizen sentiment in Reddit posts, could not be collected: Reddit closed new public
+Data API requests on 31 October 2026 and declined the project's Reddit for Researchers application on
+9 November 2026. RQ3 now uses the official NeSDA Way Forward measure of e-service availability (DARPG),
+36 states/UTs x 3 snapshots (Jan-Feb 2024, Oct 2024, Mar 2026) in `data/raw/nesda/nesda_eservices.csv`:
+
+```bash
+python -m src.models.rq3_nesda      # Spearman + cluster permutation test, FE check -> reports/final/rq3_results.json
+```
+
+The original collection and sentiment code remains in `src/collect/social_posts.py` and `src/features/sentiment.py`.
 
 ## Outputs
 

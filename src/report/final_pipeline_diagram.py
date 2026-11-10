@@ -12,7 +12,7 @@ C = {"data": "#dbe7f3", "proc": "#f3ead9", "model": "#dcefe1", "out": "#efe0ef"}
 E = {"data": "#2f5d8a", "proc": "#b07a2a", "model": "#4b8b5a", "out": "#6a4c93"}
 
 stages = [  # (x, y, kind, title, body)
-    (0.1, 3.1, "data", "1. Data sources", "PhonePe Pulse (GitHub);\nMGNREGS R14.9, dashboards;\nTRAI, RBI, NCP"),
+    (0.1, 3.1, "data", "1. Data sources", "PhonePe Pulse (GitHub);\nMGNREGS reports;\nTRAI, RBI, NCP, NeSDA"),
     (2.95, 3.1, "proc", "2. Ingestion", "Git clone, Excel and\nPDF parsers; value status\n(ok / NR / NS)"),
     (5.8, 3.1, "proc", "3. Preprocessing", "Name harmonisation,\nmerge, range checks,\nmissing & outlier rules"),
     (8.65, 3.1, "data", "SQLite database", "states, state_year,\nvalue_status, dictionary;\nviews v_rq1 to v_rq4"),
